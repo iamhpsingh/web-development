@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    max-width: 1080px;
+    margin: 0 auto;
+    z-index:999;
+}
+header ul{
+
+    margin-top: 60px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header ul li{
+    margin-right: 66px;
+}
+
+header ul li:last-child{
+    margin-right: 0;
+}
+
+header ul li a{
+font-size: 16px;
+text-decoration: none;
+color: black;
+}
+
+#hero
+{
+    max-width: 1080px;
+    margin: 0 auto;
+    z-index: 33;
+    
+}
+
+#hero .wrapper{
+    width: 1120px;
+    height: 713px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #D8D8D8;
+}
+
+#hero .content{
+    z-index: 99;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+#hero .content .left{
+    width: 50%; 
+}
+
+#hero .content .left h1{
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1;
+    color: #999999;
+}
+
+#hero .content .left a{
+    display: inline-block;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3.4px;
+    margin-top: 42px;
+    text-decoration: none;
+    background-color: #FFE8E8;
+    padding: 40px;
+    color: #000;
+}
+
+#hero .content .right{
+    width: 50%;
+}
+
+
+#hero .content .right p{
+    font-size: 18px;
+    letter-spacing: 0.39px;
+    line-height: 36px;
+    color: #6d6d6d;
+}
+
+#hero .content .right .social{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#hero .content .right .social .link{
+    margin-right: 46px;
+
+}
+
+#hero .content .right .social .link a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000000;
+}
